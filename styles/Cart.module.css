@@ -1,0 +1,67 @@
+.container{
+   padding: 20px;
+   
+   display: flex;
+}
+.imgContainer{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+.left{
+    flex: 2;
+}
+.right{
+    flex: 1;
+}
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align: center;
+}
+.name{
+    font-weight: 500;
+    font-size: 18px;
+    color:#ED5553;
+}
+.price{
+    font-size: 22px;
+    font-weight: 500;
+
+}
+.total{
+    font-weight: 500;
+    font-size: 22px;
+    color:#ED5553; 
+}
+.wrapper{
+    width: 90%;
+    max-height: 300px;
+    padding-top: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.totalText{
+    margin: 5px 0px;
+}
+.checkoutButton{
+    height: 30px;
+    margin-top: 20px;
+    background-color: #ED5553;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+}
+.totalTextTitle{
+    margin-right: 10px;
+}

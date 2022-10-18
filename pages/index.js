@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Feature from '../components/Feature'
+import PizzaLis from '../components/PizzaList'
 import styles from '../styles/Home.module.css'
 
 
@@ -13,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Homepage</h1>
-     
+      <Feature/>
+      <PizzaLis/>
     </div>
   )
 }

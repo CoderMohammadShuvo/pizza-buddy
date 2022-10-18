@@ -1,0 +1,97 @@
+.container{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+.left{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    flex: 1;
+    padding: 20px;
+}
+.imgContainer{
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+.price{
+    font-size: 24px;
+    color:#ED5553;
+    border-bottom: 2px solid #ED5553;
+    font-weight: bold;
+}
+.sizes{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.size{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.size:nth-child(2){
+    width: 70px;
+    height: 70px;
+    
+}
+.size:last-child{
+    height: 90px;
+    width: 90px;
+}
+.sizeText{
+    position: absolute;
+    top: -5px;
+    right: -20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ingredients{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.quantityInput{
+    background-color: white !important;
+    color: black !important;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ED5553 !important;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.button{
+    height: 30px;
+    margin-left: 20px;
+    background-color: #ED5553;
+    color: white;
+    font-size:12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
